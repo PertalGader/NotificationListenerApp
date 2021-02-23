@@ -1,32 +1,12 @@
-package com.petralgad.lavabirdtestapp.service;
+package com.petralgad.nnotiflistener.service;
 
 import android.app.Notification;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.app.TaskStackBuilder;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Color;
-import android.os.Build;
-import android.os.Bundle;
 import android.os.IBinder;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
-import android.util.Log;
-import android.widget.Toast;
 
-import androidx.annotation.RequiresApi;
-import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
-
-import com.petralgad.lavabirdtestapp.R;
-import com.petralgad.lavabirdtestapp.model.MyNotificationModel;
-import com.petralgad.lavabirdtestapp.ui.MainActivity;
-
-import java.io.Serializable;
+import com.petralgad.nnotiflistener.model.MyNotificationModel;
 
 public class MyNotificationListenerService extends NotificationListenerService {
 

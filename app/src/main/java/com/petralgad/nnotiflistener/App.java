@@ -1,8 +1,6 @@
-package com.petralgad.lavabirdtestapp;
+package com.petralgad.nnotiflistener;
 
 import android.app.Application;
-
-import androidx.appcompat.app.AppCompatDelegate;
 
 public class App extends Application {
     @Override

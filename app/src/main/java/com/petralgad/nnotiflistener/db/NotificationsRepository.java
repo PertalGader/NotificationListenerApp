@@ -1,11 +1,11 @@
-package com.petralgad.lavabirdtestapp.db;
+package com.petralgad.nnotiflistener.db;
 
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
 
-import com.petralgad.lavabirdtestapp.dao.NotificationDao;
-import com.petralgad.lavabirdtestapp.model.MyNotificationModel;
+import com.petralgad.nnotiflistener.dao.NotificationDao;
+import com.petralgad.nnotiflistener.model.MyNotificationModel;
 
 import java.util.List;
 

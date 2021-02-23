@@ -1,15 +1,12 @@
-package com.petralgad.lavabirdtestapp.recyclerViewHelper;
+package com.petralgad.nnotiflistener.recyclerViewHelper;
 
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
-import androidx.recyclerview.widget.RecyclerView;
 
-import com.petralgad.lavabirdtestapp.model.MyNotificationModel;
-
-import java.util.ArrayList;
+import com.petralgad.nnotiflistener.model.MyNotificationModel;
 
 public class rvNotificationsAdapter extends ListAdapter<MyNotificationModel, NotificationViewHolder> {
 

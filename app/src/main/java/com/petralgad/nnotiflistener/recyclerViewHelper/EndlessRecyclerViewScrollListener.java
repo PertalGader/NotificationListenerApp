@@ -1,4 +1,4 @@
-package com.petralgad.lavabirdtestapp.recyclerViewHelper;
+package com.petralgad.nnotiflistener.recyclerViewHelper;
 
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;

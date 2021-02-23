@@ -1,7 +1,5 @@
-package com.petralgad.lavabirdtestapp.ui;
+package com.petralgad.nnotiflistener.ui;
 
-import android.app.Notification;
-import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -10,7 +8,6 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.service.notification.NotificationListenerService;
-import android.service.notification.StatusBarNotification;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -23,21 +20,19 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.petralgad.lavabirdtestapp.R;
-import com.petralgad.lavabirdtestapp.model.MyNotificationModel;
-import com.petralgad.lavabirdtestapp.recyclerViewHelper.rvNotificationsAdapter;
-import com.petralgad.lavabirdtestapp.recyclerViewHelper.EndlessRecyclerViewScrollListener;
-import com.petralgad.lavabirdtestapp.service.MyNotificationListenerService;
-import com.petralgad.lavabirdtestapp.viewModels.NotificationViewModel;
+import com.petralgad.nnotiflistener.R;
+import com.petralgad.nnotiflistener.model.MyNotificationModel;
+import com.petralgad.nnotiflistener.recyclerViewHelper.rvNotificationsAdapter;
+import com.petralgad.nnotiflistener.recyclerViewHelper.EndlessRecyclerViewScrollListener;
+import com.petralgad.nnotiflistener.service.MyNotificationListenerService;
+import com.petralgad.nnotiflistener.viewModels.NotificationViewModel;
 
-import java.io.Serializable;
 import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {

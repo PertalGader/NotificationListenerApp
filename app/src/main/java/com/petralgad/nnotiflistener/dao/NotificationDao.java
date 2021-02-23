@@ -1,4 +1,4 @@
-package com.petralgad.lavabirdtestapp.dao;
+package com.petralgad.nnotiflistener.dao;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.petralgad.lavabirdtestapp.model.MyNotificationModel;
+import com.petralgad.nnotiflistener.model.MyNotificationModel;
 
 import java.util.List;
 @Dao

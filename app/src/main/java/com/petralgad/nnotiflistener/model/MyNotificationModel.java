@@ -1,4 +1,4 @@
-package com.petralgad.lavabirdtestapp.model;
+package com.petralgad.nnotiflistener.model;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
@@ -6,7 +6,6 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
-import java.sql.Date;
 
 @Entity(tableName = "notifications_table")
 public class MyNotificationModel implements Serializable {

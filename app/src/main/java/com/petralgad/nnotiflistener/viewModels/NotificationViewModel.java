@@ -1,13 +1,12 @@
-package com.petralgad.lavabirdtestapp.viewModels;
+package com.petralgad.nnotiflistener.viewModels;
 
 import android.app.Application;
 
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.ViewModel;
 
-import com.petralgad.lavabirdtestapp.db.NotificationsRepository;
-import com.petralgad.lavabirdtestapp.model.MyNotificationModel;
+import com.petralgad.nnotiflistener.db.NotificationsRepository;
+import com.petralgad.nnotiflistener.model.MyNotificationModel;
 
 import java.util.List;
 

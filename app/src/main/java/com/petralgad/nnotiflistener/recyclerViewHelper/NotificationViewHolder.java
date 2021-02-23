@@ -1,4 +1,4 @@
-package com.petralgad.lavabirdtestapp.recyclerViewHelper;
+package com.petralgad.nnotiflistener.recyclerViewHelper;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -16,10 +16,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.petralgad.lavabirdtestapp.R;
-import com.petralgad.lavabirdtestapp.model.MyNotificationModel;
-
-import org.w3c.dom.Text;
+import com.petralgad.nnotiflistener.R;
+import com.petralgad.nnotiflistener.model.MyNotificationModel;
 
 public class NotificationViewHolder extends RecyclerView.ViewHolder {
     private final ImageView ivAppIcon;

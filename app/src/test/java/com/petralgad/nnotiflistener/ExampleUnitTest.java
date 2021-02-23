@@ -1,4 +1,4 @@
-package com.petralgad.lavabirdtestapp;
+package com.petralgad.nnotiflistener;
 
 import org.junit.Test;
 
